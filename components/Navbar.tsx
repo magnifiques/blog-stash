@@ -37,6 +37,7 @@ function Navbar({}: Props) {
           (max-width: 1060px) 50vw,
           33vw"
             style={{ objectFit: "cover" }}
+            blurDataURL={`/_next/image?url=${Ad1}&w=16&q=1`}
           />
         </div>
       </div>

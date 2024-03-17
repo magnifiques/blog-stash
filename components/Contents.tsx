@@ -137,6 +137,8 @@ function Contents({ post }: Props) {
             alt={post.category}
             src={post.image}
             style={{ objectFit: "cover" }}
+            placeholder="blur"
+            blurDataURL={`/_next/image?url=${post.image}&w=16&q=1`}
           />
         </div>
 

@@ -20,6 +20,7 @@ export default function Socials({ isDark = false }: Props) {
           alt="twitter"
           width={20}
           height={20}
+          blurDataURL={`/_next/image?url=${Twitter}&w=16&q=1`}
         />
       </a>
 
@@ -30,6 +31,7 @@ export default function Socials({ isDark = false }: Props) {
           alt="Instagram"
           width={20}
           height={20}
+          blurDataURL={`/_next/image?url=${Instagram}&w=16&q=1`}
         />
       </a>
 
@@ -40,6 +42,7 @@ export default function Socials({ isDark = false }: Props) {
           alt="Facebook"
           width={20}
           height={20}
+          blurDataURL={`/_next/image?url=${Facebook}&w=16&q=1`}
         />
       </a>
 
@@ -50,6 +53,7 @@ export default function Socials({ isDark = false }: Props) {
           alt="Google"
           width={20}
           height={20}
+          blurDataURL={`/_next/image?url=${Google}&w=16&q=1`}
         />
       </a>
     </div>

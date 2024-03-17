@@ -42,6 +42,7 @@ export default function Card({
           (max-width: 1060px) 50vw,
           33vw"
             style={{ objectFit: "cover" }}
+            blurDataURL={`/_next/image?url=${post?.image}&w=16&q=1`}
           />
         </div>
       </Link>

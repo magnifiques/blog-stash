@@ -28,6 +28,7 @@ const TrendingCard = ({ className, post }: TrendingCardProps) => {
           (max-width: 1060px) 50vw,
           33vw"
           style={{ objectFit: "cover" }}
+          blurDataURL={`/_next/image?url=${post?.image}&w=16&q=1`}
         />
       </div>
       <div className="absolute z-1 top-0 left-0 w-full h-full bg-gradient-gradual"></div>

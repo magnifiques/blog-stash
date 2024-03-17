@@ -25,6 +25,7 @@ export default function Sidebar({}: Props) {
         alt="Advert 2"
         width={500}
         height={1000}
+        blurDataURL={`/_next/image?url=${Ad2}&w=16&q=1`}
       />
 
       <h4 className="bg-wh-900 py-3 px-5 text-wh-50 text-xs font-bold text-center">
@@ -38,6 +39,7 @@ export default function Sidebar({}: Props) {
           width={500}
           height={1000}
           style={{ objectFit: "cover" }}
+          blurDataURL={`/_next/image?url=${AboutProfile}&w=16&q=1`}
         />
       </div>
       <h4 className="py-3 px-5 text-wh-500 font-bold text-center">

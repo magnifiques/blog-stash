@@ -28,7 +28,7 @@ const getPosts = async () => {
 
 export default async function Index() {
   const posts = await getPosts();
-
+  console.log(posts);
   const formatPosts = () => {
     const trendingPosts: Array<Post> = [];
     const musicPosts: Array<Post> = [];
